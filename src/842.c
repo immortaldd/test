@@ -162,6 +162,7 @@ static struct crypto_alg alg = {
 	.cra_u			= { .compress = {
 	.coa_compress		= nx842_crypto_compress,
 	.coa_compress2		= nx842_crypto_compress,
+	.coa_compress3		= nx842_crypto_compress,
 	.coa_decompress		= nx842_crypto_decompress } }
 };
 
